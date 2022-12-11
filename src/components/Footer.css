@@ -1,0 +1,36 @@
+.footer-container {
+  background-color: #000000;
+  padding: 2rem 0 2rem 0;
+}
+
+/* Social Icons */
+.social-icon-link {
+  color: #fff;
+  font-size: 30px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10% 0 auto; 
+  width: 10%;
+  height: auto;
+}
+
+.social-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+}
+
+.website-rights {
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: -70px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana;
+}
