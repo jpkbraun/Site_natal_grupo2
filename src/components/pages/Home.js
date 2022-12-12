@@ -3,6 +3,7 @@ import '../../App.css';
 import Produtos from '../Produtos';
 import Sobre from '../Sobre';
 import Banner from '../Banner';
+import Siga_nos from '../Siga_nos';
 import Footer from '../Footer';
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
       <Banner />
       <Produtos />
       <Sobre />
+      <Siga_nos/>
       <Footer />
     </>
   );
