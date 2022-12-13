@@ -27,7 +27,7 @@ function Sobre() {
         de desconto.
       </div>
       <img src="../images/foto-loja.jpg" alt="sobre-img" />
-      <p className="sobre-paragrafo">
+      <p className="sobre-paragrafo-baixo">
         É NA DECORHOUSE QUE VOCÊ ENCONTRA O QUE FAZ A SUA CASA SUA!
       </p>
     </div>

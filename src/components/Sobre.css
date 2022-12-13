@@ -54,3 +54,10 @@ img {
     width: 50%;
     margin: 0 25%;
 }
+
+.sobre-paragrafo-baixo {
+    margin: 1% 25%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Verdana', sans-serif;
+}
