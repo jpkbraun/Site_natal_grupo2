@@ -5,8 +5,9 @@ import './Banner.css';
 function Banner() {
   return (
     <div className='banner' id='home'>
-      <video src='/videos/fireplace.mp4' autoPlay loop muted className='fireplace-video'/>
-      <h1>Promoção de Natal <br/> da DecorHouse!</h1>
+      <img src='/images/imagem-sala.png' className='imagem'/>
+      <div className='rectangle'></div>
+      <h1>Promoção de Natal na DecorHouse!</h1>
     </div>
   );
 }

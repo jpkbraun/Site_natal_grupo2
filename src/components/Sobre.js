@@ -11,7 +11,6 @@ function Sobre() {
         desejar, do natal ao ano novo, temos os produtos que precisa para dar
         uma levantada na sua casa.
         <br />
-        <br />
         <br />A DecorHouse possui os melhores preços da região, vendendo
         produtos de qualidade pelo melhor preço do mercado.
       </p>

@@ -6,24 +6,28 @@
 }
 
 .sobre-titulo {
-    background-color: rgb(156,0,0,1);
+    background-color: #780000;
     display: inline-block;
-    width: 250px;
-    height: 60px;
+    width: 23.02vw;
+    height: 3.25vw;
     display: block;
     margin: 0 auto;
-    font-size: 30px;
-    padding-top: 10px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2.33vw;
     font-style: normal;
     text-align: center;
+    line-height: 3.3vw;
     color: #ffffff;
 }
 
 .sobre-paragrafo {
-    margin: 5% 25%;
-    font-size: 21px;
+    margin: 2.87vh 24.5vw;
+    font-size: 1.63vw;
     text-align: justify;
-    font-family: 'Verdana', sans-serif;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .sobre-rect {
@@ -34,7 +38,7 @@
     margin-right: 25%;
     font-size: 21px;
     text-align: justify;
-    font-family: 'Verdana', sans-serif;
+    font-family: Poppins;
     font-style: italic;
 }
 

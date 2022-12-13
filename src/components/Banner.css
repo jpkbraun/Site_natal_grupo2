@@ -1,57 +1,39 @@
-video {
+.imagem {
   object-fit: cover;
   width: 100%;
-  height: 100%;
-  position: fixed;
+  height: 91.95%;
+  margin-left: 0;
   z-index: -1;
 }
 
 .banner {
   height: 100vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
   align-items: left;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-  font-family: Poppins;
 }
 
 .banner > h1 {
-  color: #fff;
-  font-size: 100px;
   position: absolute;
-  left: 20px;
-  bottom: 0px;
+  width: 62.2vw;
+  height: 26vh;
+  left: 4.65vw;
+  top: 73vh;
+
+  font-family: 'Poppins';
   text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.28vw;
+  line-height: 11.11vh;
+  color: #FFFFFF; 
 }
 
-.fireplace-video {
-  height: 102%;
-  margin-bottom: -10%;
-  overflow:hidden;
-}
-
-@media screen and (max-width: 960px) {
-  .hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner > h1 {
-    font-size: 50px;
-    margin-top: -100px;
-  }
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 100%;
-  }
+.rectangle{
+  position: absolute;
+  width: 100%;
+  height: 31.8vh;
+  left: 0px;
+  top: 68.2vh;
+  
+  background: linear-gradient(180deg, rgba(120, 0, 0, 0) 0%, #780000 100%);
 }
