@@ -1,36 +1,51 @@
 .footer-container {
   background-color: #000000;
-  padding: 2rem 0 2rem 0;
-}
-
-/* Social Icons */
-.social-icon-link {
-  color: #fff;
-  font-size: 30px;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 10% 0 auto; 
-  width: 10%;
-  height: auto;
+  height: 170px;
+  position: relative;
 }
 
 .social-logo {
+  position: relative;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
+  margin: 0 auto;
+  top: 40px;
+  width: 250px;
   height: auto;
 }
 
-.website-rights {
-  color: #fff;
-  margin-top: 50px;
-  margin-bottom: -70px;
+.cookies-text {
+  color: #ffffff;
+  margin-top: 55px;
   display: block;
   text-align: center;
-  font-size: 15px;
-  font-family: Verdana;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+.realizacao {
+  color: #ffffff;
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 300;
+  margin-top: -20px;
+  right: 20px;
+}
+
+.realizacao > small {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+.logo-ide {
+  width: 100px;
+  height: auto;
+
+
 }

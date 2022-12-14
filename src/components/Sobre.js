@@ -21,9 +21,9 @@ function Sobre() {
         <div className="small-rect"/>
       </div>
       <img src="../images/foto-loja.jpg" alt="sobre-img" />
-      <p className="sobre-paragrafo">
+      <div className="legenda-imagem">
         É NA DECORHOUSE QUE VOCÊ ENCONTRA O QUE FAZ A SUA CASA SUA!
-      </p>
+      </div>
     </div>
   );
 }
