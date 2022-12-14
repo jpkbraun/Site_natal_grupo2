@@ -1,45 +1,51 @@
 import React from 'react';
 import './Produtos.css';
-import CardItem from './CardItem';
+import Produto from './Produto';
 
-function Cards() {
+/*<button className="button" 
+          onClick={()=>setOpt(<ul>
+                              <li>oi</li>
+                              </ul>)}>botao 1</button>
+  <button className="button"
+          onClick={()=>setOpt(<ul>
+                              <li>oioioi</li>
+                              </ul>)}>botao 2</button>
+*/
+
+function Produtos() {
   return (
     <div className='cards' id='produtos'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1 className="background_produtos">PRODUTOS DIPONÍVEIS</h1>
+      <h5 className="background_abas">Copa do Mundo</h5>
+      <h5 className="background_abas">Natal</h5>
+      <h5 className="background_abas">Ano Novo</h5>
       <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+        <div>
+          <ul>
+            <Produto
+              name='Bandeirinhas'
+              text='Conjunto de Bandeirinhas.'
+              price='12,00'
             />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+            <Produto
+              name='Uniforme Seleção'
+              text='Uniforme da Seleção.'
+              price='70,00'
             />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+            <Produto
+              name='Vuvuzela'
+              text='Pra fazer aquela barulheira dahora.'
+              price='30,00'
             />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+            <Produto
+              name='Peruca Colorida'
+              text='Peruca nas cores Verde e Amarelo.'
+              price='25,00'
             />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+            <Produto
+              name='Faixa 100% Jesus'
+              text='Faixa utilizada pelo Neymar.'
+              price='5,00'
             />
           </ul>
         </div>
@@ -48,4 +54,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Produtos;
