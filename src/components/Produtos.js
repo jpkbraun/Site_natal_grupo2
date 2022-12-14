@@ -24,11 +24,11 @@ function Produtos() {
   return (
     <div className='cards' id='produtos'>
       <h1 className="background_produtos">PRODUTOS DIPONÍVEIS</h1>
-      <h5 className="background_abas"><button 
+      <h5 className="background_abas"><button className='button' 
         onClick={()=>setOpt(<ProdutosLista1/>)}>Copa do Mundo</button></h5>
-      <h5 className="background_abas"><button 
+      <h5 className="background_abas"><button className='button' 
         onClick={()=>setOpt(<ProdutosLista2/>)}>Natal</button></h5>
-      <h5 className="background_abas"><button 
+      <h5 className="background_abas"><button className='button' 
         onClick={()=>setOpt(<ProdutosLista3/>)}>Ano Novo</button></h5>
       <div className='cards__container'>
         <div>
