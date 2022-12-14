@@ -4,6 +4,7 @@ import Produtos from '../Produtos';
 import Sobre from '../Sobre';
 import Banner from '../Banner';
 import Footer from '../Footer';
+import Siga_nos from '../Siga_nos';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Banner />
       <Produtos />
       <Sobre />
+      <Siga_nos />
       <Footer />
     </>
   );
