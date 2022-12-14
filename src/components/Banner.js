@@ -7,7 +7,7 @@ function Banner() {
     <div className='banner' id='home'>
       <img src='/images/imagem-sala.png' className='imagem'/>
       <div className='rectangle'></div>
-      <h1>Promoção de Natal na DecorHouse!</h1>
+      <h1>Promoção de Natal <br/> na DecorHouse!</h1>
     </div>
   );
 }

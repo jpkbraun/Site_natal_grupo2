@@ -1,6 +1,6 @@
 .navbar {
   background: #4A0101;
-  height: 8.05vh;
+  height: 8.75vh;
   width: 100%;
   position: sticky;
   top: 0;
@@ -18,7 +18,7 @@
 .nav-item {
   float: left;
   display: inline;
-  margin-top: 1.72vh;
+  margin-top: 1.875vh;
 }
 
 .nav-links {
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 4.6vh;
+  line-height: 5vh;
   text-decoration: none;
   color: #FFFFFF;
 }

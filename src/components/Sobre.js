@@ -14,16 +14,11 @@ function Sobre() {
         <br />A DecorHouse possui os melhores preços da região, vendendo
         produtos de qualidade pelo melhor preço do mercado.
       </p>
-      <div className="small-rect">
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
       <div className="sobre-rect">
         Neste ano devido à proximidade da Copa do Mundo ao Natal estamos fazendo
         uma promoção futenatalina, com decorações de natal e da copa com até 40%
         de desconto.
+        <div className="small-rect"/>
       </div>
       <img src="../images/foto-loja.jpg" alt="sobre-img" />
       <p className="sobre-paragrafo">
