@@ -1,6 +1,10 @@
 import React from 'react';
 import './Produtos.css';
 import Produto from './Produto';
+import { useState } from 'react';
+import ProdutosLista1 from './ProdutosLista1';
+import ProdutosLista2 from './ProdutosLista2';
+import ProdutosLista3 from './ProdutosLista3';
 
 /*<button className="button" 
           onClick={()=>setOpt(<ul>
@@ -11,43 +15,24 @@ import Produto from './Produto';
                               <li>oioioi</li>
                               </ul>)}>botao 2</button>
 */
+// <span style={{fontSize:'20vw'}}>{opt}</span>
 
 function Produtos() {
+
+  let [opt, setOpt] = useState(<ProdutosLista1/>)
+
   return (
     <div className='cards' id='produtos'>
       <h1 className="background_produtos">PRODUTOS DIPONÍVEIS</h1>
-      <h5 className="background_abas">Copa do Mundo</h5>
-      <h5 className="background_abas">Natal</h5>
-      <h5 className="background_abas">Ano Novo</h5>
+      <h5 className="background_abas"><button 
+        onClick={()=>setOpt(<ProdutosLista1/>)}>Copa do Mundo</button></h5>
+      <h5 className="background_abas"><button 
+        onClick={()=>setOpt(<ProdutosLista2/>)}>Natal</button></h5>
+      <h5 className="background_abas"><button 
+        onClick={()=>setOpt(<ProdutosLista3/>)}>Ano Novo</button></h5>
       <div className='cards__container'>
         <div>
-          <ul>
-            <Produto
-              name='Bandeirinhas'
-              text='Conjunto de Bandeirinhas.'
-              price='12,00'
-            />
-            <Produto
-              name='Uniforme Seleção'
-              text='Uniforme da Seleção.'
-              price='70,00'
-            />
-            <Produto
-              name='Vuvuzela'
-              text='Pra fazer aquela barulheira dahora.'
-              price='30,00'
-            />
-            <Produto
-              name='Peruca Colorida'
-              text='Peruca nas cores Verde e Amarelo.'
-              price='25,00'
-            />
-            <Produto
-              name='Faixa 100% Jesus'
-              text='Faixa utilizada pelo Neymar.'
-              price='5,00'
-            />
-          </ul>
+        <span>{opt}</span>
         </div>
       </div>
     </div>
