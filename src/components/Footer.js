@@ -16,7 +16,7 @@ function Footer() {
         </Link>
       </div>
       <small class="cookies-text">
-        Termos de Uso | Politica de Privacidade | Política de Cookies
+        <p>Termos de Uso</p> | <p>Politica de Privacidade</p> | <p>Política de Cookies</p>
       </small>
     </div>
   );

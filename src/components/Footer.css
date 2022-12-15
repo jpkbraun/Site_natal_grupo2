@@ -23,6 +23,21 @@
   font-weight: 300;
 }
 
+.cookies-text > p{
+  color: #ffffff;
+  margin-top: 55px;
+  display: inline;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+.cookies-text > p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .realizacao {
   color: #ffffff;
   position: absolute;
