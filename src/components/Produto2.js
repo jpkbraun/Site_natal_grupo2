@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Produto(props) {
+function Produto2(props) {
   return (
     <>
-      <li className='produto'>
+      <li className='produto' style={{background: '#eeeeee'}}>
         <div>
           <div className='produto-texto'><strong>{props.name}</strong><br></br>{props.text}</div>
           <div className='produto-preco'>R$<br></br>{props.price}</div>
@@ -14,4 +14,4 @@ function Produto(props) {
   );
 }
   
-export default Produto;
+export default Produto2;
