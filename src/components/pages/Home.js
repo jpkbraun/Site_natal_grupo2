@@ -4,7 +4,7 @@ import Produtos from '../Produtos';
 import Sobre from '../Sobre';
 import Banner from '../Banner';
 import Footer from '../Footer';
-import Siga_nos from '../Siga_nos.js';
+import Siga_nos from '../Siga_nos';
 
 function Home() {
   return (
