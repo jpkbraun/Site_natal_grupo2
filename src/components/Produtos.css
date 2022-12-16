@@ -12,6 +12,7 @@ h1 {
   font-family: 'Poppins';
   width: 30%;
   margin: 0 35%;
+  min-width: fit-content;
 }
 
 .background_abas {
@@ -25,6 +26,7 @@ h1 {
   text-align: center;
   width: 33.3%;
   margin: 50px auto 0 auto; 
+  min-width: fit-content;
 }
 
 .button
@@ -49,9 +51,9 @@ h1 {
 
 .produto {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
-  width: auto;
+  justify-content: space-between;
+  min-width: fit-content;
 }
 
 .produto-texto {
@@ -64,24 +66,24 @@ h1 {
   padding: 2rem;
   width: auto;
   max-width: 500px;
-  min-width: fit-content;
-  margin: auto;
+  margin: auto auto auto 0;
 }
 
 .produto-preco {
-  position: relative;
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.7rem;
   font-size: 16px;
   line-height: 17.44px;
   font-weight: 700;
-  margin: auto;
   color: #ffffff;
   background: #780000;
   box-sizing: border-box;
   border-radius: 100%;
+  height: 57.28px;
+  width: 65.73px;
+  margin: auto 0 auto auto;
 }
 
 @media only screen and (min-width: 1200px) {

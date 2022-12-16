@@ -13,12 +13,12 @@ function ProdutosLista2() {
               />
               <Produto2
                 name='Estátua do Papai Noel'
-                text='Já que o Natal dura somente 1 dia, por que não ficar com a companhia do velhinho por mais um tempo?'
+                text='Fique com a companhia do velhinho!'
                 price='100,00'
               />
               <Produto1
                 name='Miniatura do Trenó do Papai Noel'
-                text='Veja por si mesmo o veículo de tecnologia avançadíssima que o nosso querido senhorzinho usa no trabalho.'
+                text='Conheça o veículo do Papai Noel!'
                 price='45,00'
               />
             </ul>
