@@ -1,51 +1,44 @@
 import React from 'react';
 import './Produtos.css';
-import CardItem from './CardItem';
+import Produto1 from './Produto1';
+import Produto2 from './Produto2';
+import { useState } from 'react';
+import ProdutosLista1 from './ProdutosLista1';
+import ProdutosLista2 from './ProdutosLista2';
+import ProdutosLista3 from './ProdutosLista3';
 
-function Cards() {
+function Produtos() {
+
+  let [opt, setOpt] = useState(<ProdutosLista1/>)
+  let [bt1, setBt1] = useState(<strong>Copa do Mundo</strong>)
+  let [bt2, setBt2] = useState('Natal')
+  let [bt3, setBt3] = useState('Ano Novo')
+
   return (
-    <div className='cards' id='produtos'>
-      <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
+    <div className='produtos' id='produtos'>
+      <h1 className="background_produtos">PRODUTOS DIPONÍVEIS</h1>
+      <h5 className="background_abas"><button className='button' 
+        onClick={()=>{setOpt(<ProdutosLista1/>);
+        setBt1(<strong>Copa do Mundo</strong>);
+        setBt2('Natal');
+        setBt3('Ano Novo')}}>{bt1}</button></h5>
+      <h5 className="background_abas"><button className='button' 
+        onClick={()=>{setOpt(<ProdutosLista2/>);
+        setBt1('Copa do Mundo');
+        setBt2(<strong>Natal</strong>);
+        setBt3('Ano Novo')}}>{bt2}</button></h5>
+      <h5 className="background_abas"><button className='button' 
+        onClick={()=>{setOpt(<ProdutosLista3/>);
+        setBt1('Copa do Mundo');
+        setBt2('Natal');
+        setBt3(<strong>Ano Novo</strong>)}}>{bt3}</button></h5>
+      <div>
+        <div>
+        <span>{opt}</span>
         </div>
       </div>
     </div>
   );
 }
 
-export default Cards;
+export default Produtos;
