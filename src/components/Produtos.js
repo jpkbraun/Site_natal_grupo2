@@ -10,8 +10,8 @@ function Produtos() {
 
   return (
     <div className="produtos-container" id="produtos">
-      <h1 className="background_produtos">PRODUTOS DIPONÍVEIS</h1>
-      <div className="background_abas">
+      <h1 className="background-produtos">PRODUTOS DIPONÍVEIS</h1>
+      <div className="background-abas">
         <button className="botao" onClick={() => setOpt(<ProdutosLista1 />)}>
           Copa do Mundo
         </button>

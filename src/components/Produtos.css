@@ -7,10 +7,9 @@ h1 {
   padding: 7vh 0 5vh 0;
 }
 
-.background_produtos {
+.background-produtos {
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #780000;
   color: #ffffff;
   font-size: 25px;
@@ -19,19 +18,18 @@ h1 {
   margin: 0 auto;
 }
 
-.background_abas {
+.background-abas {
+  display: flex;
+  align-items: space-between;
   background: #780000;
   width: 50vw;
   margin: 50px auto;
 }
 
 .botao {
-  display: inline-flex;
-  justify-content: space-evenly;
-  background-color: #780000;
+  background-color: transparent;
   border: transparent;
   color: #ffffff;
-  text-align: center;
   font-family: Poppins;
   font-size: 20px;
 }
