@@ -7,7 +7,10 @@ function Produto2(props) {
       <li className='produto' style={{background: '#eeeeee'}}>
         <div style={{display:'flex'}}>
           <div className='produto-texto'><strong>{props.name}</strong><br></br>{props.text}</div>
-          <div className='produto-preco'>R$<br></br>{props.price}</div>
+          <div className='produto-preco'>
+            <div>R$</div>
+            <div>{props.price}</div>
+          </div>
         </div>
       </li>
     </>

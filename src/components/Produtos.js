@@ -15,7 +15,7 @@ function Produtos() {
   let [bt3, setBt3] = useState('Ano Novo')
 
   return (
-    <div className='cards' id='produtos'>
+    <div className='produtos' id='produtos'>
       <h1 className="background_produtos">PRODUTOS DIPONÍVEIS</h1>
       <h5 className="background_abas"><button className='button' 
         onClick={()=>{setOpt(<ProdutosLista1/>);
