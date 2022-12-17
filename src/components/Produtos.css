@@ -2,6 +2,10 @@ h1 {
   text-align: center;
 }
 
+strong {
+  font-family: Poppins;
+}
+
 .background_produtos {
   display: flex;
   justify-content: center;
