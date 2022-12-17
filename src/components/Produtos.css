@@ -3,7 +3,7 @@ h1 {
 }
 
 strong {
-  font-family: Poppins;
+  font-family: 'Poppins';
 }
 
 .background_produtos {
@@ -63,6 +63,14 @@ button:active {
   flex-direction: column;
   justify-content: space-between;
   min-width: fit-content;
+}
+
+.produto-nome {
+  margin: 0 auto;
+  display: inline;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Poppins';
 }
 
 .produto-texto {
