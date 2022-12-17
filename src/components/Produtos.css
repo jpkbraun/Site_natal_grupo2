@@ -12,10 +12,10 @@ strong {
   align-items: center;
   background: #780000;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 35px;
   font-family: 'Poppins';
-  width: 30%;
-  margin: 0 35%;
+  width: 50%;
+  margin: 0 auto;
   min-width: fit-content;
 }
 
